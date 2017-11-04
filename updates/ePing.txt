@@ -1,4 +1,19 @@
 {
+[04-11-2017] v0.06
+UPDATES:
+- v0.06 released on SA-MP forums (first release) http://forum.sa-mp.com/showthread.php?p=3950205
+- Added GameTextForPlayer to warn them that their ping is high
+- Fixed minor bugs like where GameTextForPlayer flashed for a split second after the player was unfrozen
+TO-DO's:
+- Change MAX_PING to WARN_PING. This will do the same things it usually does but I will add a new MAX_PING which will kick the user 
+                                                                 e.g.
+                                           #define WARN_PING 50 //normal stuff, player will be frozen
+                                          #define MAX_PING 500 //player will get kicked if ping exceeds this value
+- Define how much seconds the warning message will last for the player who is Ping Banned
+- Fix any other bugs I come accross or are reported
+}
+
+{
 [04-11-2017] v0.05
 UPDATES:
 - Gives player infinite health when they have high ping and gives back the players original health when their ping fixes up (help by fouzen)
