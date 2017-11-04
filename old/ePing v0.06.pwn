@@ -47,3 +47,4 @@ if(GetPlayerPing(playerid) > MAX_PING)
         }
     }
 }
+
