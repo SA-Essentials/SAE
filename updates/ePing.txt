@@ -4,5 +4,5 @@ UPDATES:
 - Released ePing on Github
 - Fixed the bug where the player get spammed with TogglePlayerControllable (with the help of Frouzen from SA-MP Forums)
 TO-DO's:
-- Save players original health, SetPlayerHealth to INFINITE and finally when the players ping reduces to normal, give player their      original health back
+- Save players original health, SetPlayerHealth to INFINITE and finally when the players ping reduces to normal, give player their original health back
 }
