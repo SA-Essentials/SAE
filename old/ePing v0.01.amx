@@ -1,7 +1,7 @@
 #include <a_samp>
 #define FILTERSCRIPT
 #define MAX_PING 150 //Changeable
-#define INFINITE (Float:0x7F800000)//Will be used on a future update
+#define INFINITE (Float:0x7F800000) //Will be used on a future update
 
 new isFrozen[MAX_PLAYERS];
 
