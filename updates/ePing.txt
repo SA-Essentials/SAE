@@ -1,7 +1,7 @@
 {
 [04-11-2017] v0.05
 UPDATES:
-- Gives player infinite health when they have high ping and gives back the players original health when their ping fixes up
+- Gives player infinite health when they have high ping and gives back the players original health when their ping fixes up (help by fouzen)
 - Fixed the bug where it outputs blank messages when TogglePlayerControllable is true/false
 TO-DO's:
 - Fix any bugs that I come accross or are reported
@@ -11,7 +11,7 @@ TO-DO's:
 [04-11-2017] v0.01
 UPDATES:
 - Released ePing on Github
-- Fixed the bug where the player get spammed with TogglePlayerControllable (with the help of Frouzen from SA-MP Forums)
+- Fixed the bug where the player get spammed with TogglePlayerControllable (help by fouzen)
 TO-DO's:
 - Save players original health, SetPlayerHealth to INFINITE and finally when the players ping reduces to normal, give player their original health back
 }
