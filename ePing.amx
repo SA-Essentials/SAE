@@ -1,7 +1,7 @@
 #include <a_samp>
 #define FILTERSCRIPT
-#define MAX_PING 150 //Changeable
-#define INFINITE (Float:0x7F800000)//Will be used on a future update
+#define MAX_PING 150 //changeable
+#define INFINITE (Float:0x7F800000)
 
 new isFrozen[MAX_PLAYERS];
 
@@ -15,7 +15,11 @@ if(GetPlayerPing(playerid) > MAX_PING)
     {
     if(!isFrozen[playerid])
         {
-            TogglePlayerControllable(playerid, 0);
+            new Float:health;
+            GetPlayerHealth(playerid, health);
+            SetPVarFloat(playerid, "lastHealth", health);
+            TogglePlayerControllable(playerid, 0); 
+            SetPlayerHealth(playerid, INFINITE);
             isFrozen[playerid] = true;
         }
     }
@@ -23,6 +27,7 @@ if(GetPlayerPing(playerid) > MAX_PING)
     {
         if(isFrozen[playerid])
         {
+            SetPlayerHealth(playerid, GetPVarFloat(playerid, "lastHealth"));
             TogglePlayerControllable(playerid, 1);
             isFrozen[playerid] = false;
         }
