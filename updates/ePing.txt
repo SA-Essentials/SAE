@@ -1,4 +1,15 @@
 {
+[05-11-2017] v0.07
+UPDATES:
+- Not using Pvars anymore
+- Using Arrays
+- Anyone who contributes will be given credit in the script
+
+TO-DO's: Yes, I haven't bothered to do most of the to-do's but a did a major one
+- Do all the to-do's promised on v0.06
+}
+
+{
 [05-11-2017] v0.06
 UPDATES:
 
