@@ -39,10 +39,10 @@ if(GetPlayerPing(playerid) > MAX_PING)
         }
     }
 }
+
 /*
 Contributors:
 - Billz
-- frouzen (help with stopping the script getting repeated)
 - Eoussama (help with pHealth)
-- Kaperstone suggestions on how to optimise the script
+- frouzen (help with stopping the script getting repeated)
 */
