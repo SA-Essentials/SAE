@@ -1,4 +1,16 @@
 {
+[05-11-2017] v0.06
+UPDATES:
+
+TO-DO's: Yes, still version v0.06 right now and no updates but we got a few to do's
+- Change new name MAX_PLAYER_NAME a bit
+- Add 30+ character to the string as 24 wasn't enough
+- Undefine #define Filterscript
+- Do not use OnPlayerUpdate
+- Do not use Pvars
+}
+
+{
 [04-11-2017] v0.06
 UPDATES:
 - v0.06 released on SA-MP forums (first release) http://forum.sa-mp.com/showthread.php?p=3950205
